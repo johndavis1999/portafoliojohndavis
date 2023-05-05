@@ -16,6 +16,10 @@ body {
   position: relative;
   background: transparent;
 }
+.contenedor-texto p {
+  margin-bottom: 40px;
+  line-height: 36px;
+}
 
 body::before {
   content: "";
