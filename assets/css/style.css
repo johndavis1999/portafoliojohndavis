@@ -29,6 +29,20 @@ body::before {
   z-index: -1;
 }
 
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.contendor {
+  z-index: 99;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
